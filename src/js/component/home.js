@@ -11,7 +11,7 @@ export function Home() {
 		<>
 			<div>
 				<Navbar />
-				<div className="container">
+				<div className="container mt-5">
 					<Jumbotron />
 				</div>
 			</div>
