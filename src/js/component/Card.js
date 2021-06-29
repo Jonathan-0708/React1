@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
 	return (
-		<div className="card ">
+		<div className="card m ">
 			<img
 				src="https://via.placeholder.com/500x325"
 				className="card-img-top"

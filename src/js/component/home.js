@@ -1,16 +1,17 @@
 import React, { Fragment } from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
 import Navbar from "./Navbar";
+import Futter from "./Futter";
 //create your first component
 export function Home() {
 	return (
 		<>
 			<div>
 				<Navbar />
+				<li></li>
 				<div className="container mt-5">
 					<Jumbotron />
 				</div>
@@ -32,6 +33,12 @@ export function Home() {
 					</div>
 				</div>
 			</div>
+			<p>
+				<li></li>
+				<li></li>
+				<li></li>
+			</p>
+			<Futter />
 		</>
 	);
 }

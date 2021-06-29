@@ -1,7 +1,7 @@
 import React from "react";
 
 const Jumbotron = () => (
-	<div className="jumbotron pt-1">
+	<div className="jumbotron">
 		<h1 className="display-4">A warm welcome!</h1>
 		<p className="lead">
 			Deserunt quis nostrud laborum pariatur minim ad enim consectetur
